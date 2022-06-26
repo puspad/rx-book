@@ -1,0 +1,48 @@
+{
+    "generator": "site",
+    "title": "RxJS - Javascript library for functional reactive programming.",
+    "description": null,
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "plugins": [
+        "jsbin",
+        "anchors",
+        "video",
+        "ga",
+        "toggle-chapters",
+        "editlink",
+        "include-codeblock",
+        "splitter",
+        "github-buttons",
+        "chart",
+        "todo",
+        "quiz",
+        "include-highlight",
+        "tonic"
+    ],
+    "theme": "theme",
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "sans"
+        },
+        "ga": {
+            "token": "UA-63403975-1"
+        },
+        "editlink": {
+            "base": "https://github.com/xgrommx/rx-book/edit/master",
+            "label": "Edit This Page"
+        },
+        "github-buttons": {
+            "repo": "xgrommx/rx-book",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        }
+    },
+    "variables": {
+        "isPdf": false
+    }
+}
